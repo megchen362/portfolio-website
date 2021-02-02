@@ -7,6 +7,22 @@ Secondary (Citron): #b2b536
 Secondary (Burnt Orange): #bd7115
 Secondary (Dark Blue): #014676
 */
+
+/* Layout styling */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+/* Layout styling end */
+
 body {
   background-color: #f4eae1;
   font-family: 'Syne', sans-serif;
@@ -15,9 +31,55 @@ body {
   color: #303030;
 }
 
-.logo {
-  width: 25%;
-  height: auto;
+header {
+  background-color: #f4eae1;
+  padding: 10px 0;
+  position: relative;
+  box-shadow: 0px 1px 9px 0px rgba(50, 50, 50, 0.1);
+  width: 100%;
+}
+
+.container .navigation {
+  height: 721px;
+}
+
+nav.pages {
+  display: inline-block;
+  text-align: right;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 14px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #014676;
+}
+
+nav > ul > li > a:hover {
+  color: #bd7115;
+  text-decoration: none;
+}
+
+img.logo {
+  max-width: 200px;
+  display: inline-block;
+}
+
+#hero {
+  background-color: #f4eae1;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -53,8 +115,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #014676;
-  text-decoration: underline;
+  color: ##bd7115;
 }
 
 a:visited {
@@ -62,10 +123,11 @@ a:visited {
 }
 
 a:active {
-  color: #b2b536;
+  color: #bd7115;
 }
 
 .button {
+  display: inline-block;
   background-color: transparent;
   color: #014676;
   text-transform: uppercase;

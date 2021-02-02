@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,10 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <header id="navigation">
-      <div><!-- hero section-->
+
+    <header id="top">
+      <div class="container navigation"><!-- hero section-->
         <img src="img/Portfolio Logo.svg" alt="Chen, Megan." class="logo">
+        <div class="pages">
         <nav>
           <ul>
             <li><a href="index.html">Work</a></li>
@@ -23,19 +27,25 @@
           </ul>
         </nav>
       </div>
+      </div>
     </header>
+
     <main id="hero">
-      <div>
+
+      <div class="container">
         <div>
           <h1>Hi, I'm Megan.</h1>
           <p>I’m a Memphis-based UX/UI Designer focused on simple forms and bold color palettes in beautiful, clean, human-centered design.</p>
         </div>
       </div>
-      <div><!-- work section -->
+
+      <div class="container"><!-- work section -->
+
           <h2>My Work</h2>
-          <div><!-- Dimes Project -->
+
+          <div class="row"><!-- Dimes Project -->
             <div><!-- Dimes img -->
-              <picture>
+              <picture class="Dimes">
                 <source srcset="img/Dimes/@1x/Dimes.png" media="(max-width:767px)">
                 <img src="img/Dimes/@2x/Dimes@2x.png" alt="Dimes">
               </picture>
@@ -49,13 +59,15 @@ and user flow diagrams to wireframes and interactive prototypes, I received valu
 that highlights important features and minimizes user frustrations.</p>
             </div><!-- Dimes info end -->
           </div><!-- Dimes Project end -->
+
           <div><!-- RFRM Project -->
             <div><!-- RFRM img -->
-              <picture>
+              <picture class="RFRM">
                 <source srcset="img/RFRM/@1x/RFRM.png" media="(max-width:767px)">
                 <img src="img/RFRM/@2x/RFRM@2x.png" alt="RFRM">
               </picture>
             </div><!-- RFRM img end -->
+
             <div><!-- RFRM info -->
               <h3>
                 <a href="RFRM.html">RFRM</a>
@@ -66,17 +78,22 @@ application involved a competitor analysis, user flow diagrams, multiple wirefra
 to create a user-centered design.</p>
             </div><!-- RFRM info end -->
           </div><!-- RFRM Project end -->
+
         </div><!-- work section end -->
     </main>
+
     <footer id="contact">
-      <div>
+
+      <div class="container">
         <div><!-- Contact section-->
           <h2>Say hello!</h2>
           <p>Want to get in touch? Contact me through email or social media.</p>
         </div>
+
         <div><!-- email link -->
           <a class="button" href="mailto:meganchen362@gmail.com">Email Me</a>
         </div><!-- email link end-->
+
         <div><!-- Social Media links -->
           <a href="https://mobile.twitter.com/meganchen_" target="_blank" class="social"><!-- Twitter -->
             <svg class="social" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 455.731 455.731" style="enable-background:new 0 0 455.731 455.731;" xml:space="preserve">
@@ -91,7 +108,8 @@ to create a user-centered design.</p>
             c0,0,10.439,43.968,63.271,48.077c0,0-41.777,37.74-101.081,28.885L60.377,337.822z" />
             </g>
             </svg>
-          </a>
+          </a> <!-- Twitter end-->
+
           <a href="https://www.instagram.com/megchennn/" target="_blank">
             <svg class="social" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <style type="text/css">                        .st0{fill:url(#SVGID_1_);}
                  .st1{fill:#FFFFFF;}
@@ -114,6 +132,8 @@ to create a user-centered design.</p>
                     </g>
                 </g>
               </svg>
+          </a> <!--Instagran end-->
+
           <a href="https://www.linkedin.com/in/megan-chen-64612596/" target="_blank" class="social">
             <svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502.15 502.15">
                 <defs>
@@ -129,8 +149,10 @@ to create a user-centered design.</p>
                     </g>
                 </g>
               </svg>
-          </a>
+          </a> <!-- LinkedIn end-->
+
         </div><!-- Social Media links end-->
+
         <p>
           Copyright MEGAN CHEN 2021
         </p>
