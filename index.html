@@ -15,69 +15,66 @@
 
   <body>
 
-    <header id="top">
-      <div class="container navigation"><!-- hero section-->
-        <img src="img/Portfolio Logo.svg" alt="Chen, Megan." class="logo">
-        <div class="pages">
+    <header>
+      <div class="navigation" id="nav"><!-- navigation bar-->
         <nav>
+          <img class="logo" src="img/Portfolio Logo.svg" alt="Chen, Megan.">
           <ul>
             <li><a href="index.html">Work</a></li>
             <li><a href="about megan chen.html">About Me</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
-      </div>
     </header>
 
-    <main id="hero">
+    <main>
 
-      <div class="container">
-        <div>
+      <div id="hero">
           <h1>Hi, I'm Megan.</h1>
-          <p>I’m a Memphis-based UX/UI Designer focused on simple forms and bold color palettes in beautiful, clean, human-centered design.</p>
-        </div>
+          <br>
+          <p>I’m a Memphis-based UX/UI Designer focused on minimalist layouts and bold color palettes in beautiful, human-centered design.</p>
       </div>
 
-      <div class="container"><!-- work section -->
-
+      <div id="work"><!-- work section -->
           <h2>My Work</h2>
+          <div class="grid">
+            <div class="dimes row"><!-- Dimes Project -->
+              <div class="item1"><!-- Dimes img -->
+                <picture class="cover">
+                  <source srcset="img/Dimes/@1x/Dimes.png" media="(max-width:767px)">
+                    <img src="img/Dimes/@2x/Dimes@2x.png" alt="Dimes">
+                  </picture>
+                </div><!-- Dimes img end -->
+                <div class="item2"><!-- Dimes info -->
+                  <h3>
+                    <a href="#">Dimes</a>
+                  </h3>
+                  <p>Dimes is an application for users who are just beginning their finance tracking & management journey. From user research
+                    and user flow diagrams to wireframes and interactive prototypes, I received valuable insight and feedback for an interface
+                    that highlights important features and minimizes user frustrations.</p>
+              </div><!-- Dimes info end -->
+            </div><!-- Dimes Project end -->
 
-          <div class="row"><!-- Dimes Project -->
-            <div><!-- Dimes img -->
-              <picture class="Dimes">
-                <source srcset="img/Dimes/@1x/Dimes.png" media="(max-width:767px)">
-                <img src="img/Dimes/@2x/Dimes@2x.png" alt="Dimes">
-              </picture>
-            </div><!-- Dimes img end -->
-            <div><!-- Dimes info -->
-              <h3>
-                <a href="#">Dimes</a>
+            <div class="rfrm row"><!-- RFRM Project -->
+              <div class="item1"><!-- RFRM img -->
+                <picture class="cover-photos">
+                  <source srcset="img/RFRM/@1x/RFRM.png" media="(max-width:767px)">
+                    <img src="img/RFRM/@2x/RFRM@2x.png" alt="RFRM">
+                </picture>
+              </div><!-- RFRM img end -->
+
+              <div class="item2"><!-- RFRM info -->
+                <h3>
+                  <a href="RFRM.html">RFRM</a>
                 </h3>
-              <p>Dimes is an application for users who are just beginning their finance tracking & management journey. From user research
-and user flow diagrams to wireframes and interactive prototypes, I received valuable insight and feedback for an interface
-that highlights important features and minimizes user frustrations.</p>
-            </div><!-- Dimes info end -->
-          </div><!-- Dimes Project end -->
-
-          <div><!-- RFRM Project -->
-            <div><!-- RFRM img -->
-              <picture class="RFRM">
-                <source srcset="img/RFRM/@1x/RFRM.png" media="(max-width:767px)">
-                <img src="img/RFRM/@2x/RFRM@2x.png" alt="RFRM">
-              </picture>
-            </div><!-- RFRM img end -->
-
-            <div><!-- RFRM info -->
-              <h3>
-                <a href="RFRM.html">RFRM</a>
-              </h3>
-              <p>With an open-ended design brief and a new-found interest in social and political issues, I designed RFRM as an educational
-resource for users to access podcasts, news articles, and books on one platform. The process for the native iOS and Android
-application involved a competitor analysis, user flow diagrams, multiple wireframe iterations, user testing, and peer critiques
-to create a user-centered design.</p>
-            </div><!-- RFRM info end -->
+                <p>With an open-ended design brief and a new-found interest in social and political issues, I designed RFRM as an educational
+                    resource for users to access podcasts, news articles, and books on one platform. The process for the native iOS and Android
+                    application involved a competitor analysis, user flow diagrams, multiple wireframe iterations, user testing, and peer critiques
+                    to create a user-centered design.</p>
+              </div><!-- RFRM info end -->
           </div><!-- RFRM Project end -->
+        </div><!-- class="grid" -->
 
         </div><!-- work section end -->
     </main>
