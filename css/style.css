@@ -83,7 +83,10 @@ nav > ul > li > a:hover {
 #hero {
   background-color: #f4eae1;
   padding: 20px 20px;
-  margin: 40px;
+  margin-top: 8em;
+  margin-bottom: 12em;
+  margin-left: 10em;
+  margin-right: 10em;
   width: auto;
   display: block;
 }
@@ -100,6 +103,8 @@ h1 {
 h2 {
   font-size: 2.25em;
   text-align: center;
+  padding: 1em;
+  margin: 1em;
 }
 
 h3 {
@@ -111,7 +116,7 @@ h4 {
 }
 
 img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -189,6 +194,10 @@ a:active {
 footer {
   text-align: center;
 }
+.contact > h2 {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
 .email {
   padding: 1em;
   margin: 30px;
@@ -213,3 +222,135 @@ footer {
   height: auto;
   padding: 10px;
 }
+
+/* project page styling */
+
+#hero.title {
+  text-align: center;
+  margin-left: 7em;
+  margin-right: 7em;
+  margin-bottom: 12em;
+  margin-top: 5em;
+}
+
+#hero.title > h1 {
+  margin-bottom: 1.5em;
+}
+
+
+.welcome_screens {
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.image {
+  width: 40%;
+  height: auto;
+}
+
+.welcome_screens {
+  content: ' ';
+  display: table;
+  clear: both;
+  padding: 0 50px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 90px;
+}
+
+.welcome_android {
+    float: right;
+    width: 45%;
+    margin-left: -80%;
+    padding-top: 25%;
+    position: relative;
+    z-index: 1;
+    right: 90px;
+}
+
+.welcome_ios {
+    width: 60%;
+    position: relative;
+    right: 100px;
+}
+
+.grid.scroll {
+  grid-gap: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+
+}
+
+.scroll_img {
+  width: 90%;
+  position: relative;
+  padding: 1em;
+  margin: 2em;
+}
+
+.scroll_text {
+  text-align: left;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 4em;
+}
+
+.grid.detail{
+  grid-gap: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 3em;
+}
+
+.project_detail {
+  padding: 5px;
+}
+
+.screens > h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.ios_screens {
+  content: ' ';
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+.ios.final {
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    bottom: 50px;
+}
+
+.ios.low {
+    width: 80%;
+    position: relative;
+    right: 50px;
+    top: 70px;
+}
+
+.android_screens {
+    content: ' ';
+    display: table;
+    clear: both;
+    text-align: center;
+  }
+
+  .android.final {
+      width: 90%;
+      position: relative;
+      z-index: 1;
+      left: 30px;
+      bottom: 90px;
+  }
+
+  .android.low {
+      width: 85%;
+      position: relative;
+      right: 40px;
+      top: 50px;
+  }

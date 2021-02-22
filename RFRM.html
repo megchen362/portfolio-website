@@ -12,83 +12,109 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header id="navigation">
-      <div>
-        <img src="img/Portfolio Logo.svg" alt="Chen, Megan." class="logo">
+    <header>
+      <div class="navigation" id="nav"><!-- navigation bar-->
         <nav>
+          <img class="logo" src="img/Portfolio Logo.svg" alt="Chen, Megan.">
           <ul>
             <li><a href="index.html">Work</a></li>
             <li><a href="about megan chen.html">About Me</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main id="work">
-      <div>
+
+    <main>
+
+      <div class="container">
+
         <div><!-- RFRM Intro-->
-          <h1>RFRM</h1>
-          <p>Read. Learn. Act. Reform.</p>
-        </div>
-        <div><!-- RFRM main content-->
-          <picture>
-            <source srcset="img/RFRM/@1x/iOS Mock Home.png" media="(max-width:767px)">
-            <img src="img/RFRM/@2x/iOS Mock Home@2x.png" alt="RFRM iOS">
-          </picture>
-          <p>Staying informed about important social and political issues is no longer an option, it’s the minimum. RFRM is here to ease the work. RFRM is an educational platform that allows users to stay up to date with current events through podcast, news article, or ebook.</p>
-          <picture>
-            <source srcset="img/RFRM/@1x/Android Mock Home.png" media="(max-width:767px)">
-            <img src="img/RFRM/@2x/Android Mock Home@2x.png" alt="RFRM Android">
-          </picture>
-        </div>
-        <div>
-          <p>Through a competitor analysis, I found the market for apps that provided this level of coverage over the varying issues plaguing the country to be unsaturated and dismissed. From there, I set out with user flow diagrams to create low- and mid-fidelity wireframes to understand the user’s thinking and journey. Feeling confident with the usability, I then created high-fidelity wireframes and recruited members of the design community to provide valuable feedback before finalizing the design and creating a function, final user interface prototype.</p>
-          <picture>
-            <source srcset="img/RFRM/@1x/iOS Mock up.png" media="(max-width:767px)">
-            <img src="img/RFRM/@2x/iOS Mock up@2x.png" alt="RFRM Podcast & Home screens">
-          </picture>
-        </div>
-        <div>
-          <picture>
-            <source srcset="img/RFRM/@1x/Android Low-Fi.png" media="(max-width:767px)">
-            <img src="img/RFRM/@2x/Android Low-Fi@2x.png" alt="RFRM Android Low Fidelity screens">
-          </picture>
-          <picture>
-            <source srcset="img/RFRM/@1x/iOS Low-Fi.png" media="(max-width:767px)">
-            <img src="img/RFRM/@2x/iOS Low-Fi@2x.png" alt="RFRM iOS Low Fidelity screens">
-          </picture>
-        </div>
-        <div>
-          <div>
-            <h2>Role</h2>
-              <p>UX/UI Designer</p>
+          <div id="hero" class="title">
+            <h1>RFRM</h1>
+            <p>Staying informed about important social and political issues is no longer an option, it’s the minimum. RFRM is here to ease the work. RFRM is an educational platform that allows users to stay up to date with current events through podcast, news article, or ebook.</p>
           </div>
-          <div>
-            <h2>Timeline</h2>
+          <div class="welcome_screens">
+              <picture>
+                <source srcset="img/RFRM/@1x/iOS Mock Home.png" media="(max-width:767px)">
+                  <img class="image welcome_ios" src="img/RFRM/@2x/iOS Mock Home@2x.png" alt="RFRM iOS">
+                </picture>
+                <picture>
+                  <source srcset="img/RFRM/@1x/Android Mock Home.png" media="(max-width:767px)">
+                    <img class="image welcome_android" src="img/RFRM/@2x/Android Mock Home@2x.png" alt="RFRM Android">
+                </picture>
+          </div>
+        </div>
+
+        <div class="grid detail">
+          <div class="item1">
+            <h2 class="project_detail">Role</h2>
+            <p >UX/UI Designer</p>
+          </div>
+          <div class="item1 detail">
+            <h2 class="project_detail">Timeline</h2>
             <p>1.5 months</p>
           </div>
         </div>
-        <div>
-          <picture>
-            <source srcset="img/RFRM/@1x/Android Final.png" media="(max-width:767px)">
-            <img src="img/RFRM/@2x/Android Final@2x.png" alt="RFRM Android Final UI">
-          </picture>
-          <picture>
-            <source srcset="img/RFRM/@1x/iOS Final.png" media="(max-width:767px)">
-            <img src="img/RFRM/@2x/iOS Final@2x.png" alt="RFRM iOS Final UI">
-          </picture>
+
+        <div class="grid scroll">
+          <div class="item1 scroll_text">
+            <h2>Process</h2>
+            <p>Through a competitor analysis, I found the market for apps that provided this level of coverage over the varying issues plaguing the country to be unsaturated and dismissed.
+              <br>
+              <br>
+              From there, I set out with user flow diagrams to create low- and mid-fidelity wireframes to understand the user’s thinking and journey.
+              <br>
+              <br>
+              Feeling confident with the usability, I then created high-fidelity wireframes and recruited members of the design community to provide valuable feedback before finalizing the design and creating a function, final user interface prototype.
+            </p>
+          </div>
+          <div class="item1">
+            <picture>
+              <source srcset="img/RFRM/@1x/iOS Mock up.png" media="(max-width:767px)">
+                <img class="scroll_img" src="img/RFRM/@2x/iOS Mock up@2x.png" alt="RFRM Podcast & Home screens">
+              </picture>
+            </div>
         </div>
+
+        <div class="screens">
+          <h2>UI Designs</h2>
+          <div class="ios_screens">
+            <picture>
+              <source srcset="img/RFRM/@1x/iOS Low-Fi.png" media="(max-width:767px)">
+              <img class="ios low" src="img/RFRM/@2x/iOS Low-Fi@2x.png" alt="RFRM iOS Low Fidelity screens">
+            </picture>
+            <picture>
+              <source srcset="img/RFRM/@1x/iOS Final.png" media="(max-width:767px)">
+              <img class="ios final" src="img/RFRM/@2x/iOS Final@2x.png" alt="RFRM iOS Final UI">
+            </picture>
+          </div>
+          <div class="android_screens">
+            <picture>
+              <source srcset="img/RFRM/@1x/Android Low-Fi.png" media="(max-width:767px)">
+              <img class="android low" src="img/RFRM/@2x/Android Low-Fi@2x.png" alt="RFRM Android Low Fidelity screens">
+            </picture>
+            <picture>
+              <source srcset="img/RFRM/@1x/Android Final.png" media="(max-width:767px)">
+              <img class="android final" src="img/RFRM/@2x/Android Final@2x.png" alt="RFRM Android Final UI">
+            </picture>
+          </div>
+        </div>
+
       </div>
     </main>
-    <footer id="contact">
-      <div>
-        <div><!-- Contact section-->
+    <footer>
+
+      <div class="container">
+        <div class="contact"><!-- Contact section-->
           <h2>Say hello!</h2>
           <p>Want to get in touch? Contact me through email or social media.</p>
         </div>
+
         <div><!-- email link -->
-          <a class="button" href="mailto:meganchen362@gmail.com">Email Me</a>
+          <a class="email button" href="mailto:meganchen362@gmail.com">Email Me</a>
         </div><!-- email link end-->
+
         <div><!-- Social Media links -->
           <a href="https://mobile.twitter.com/meganchen_" target="_blank" class="social"><!-- Twitter -->
             <svg class="social" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 455.731 455.731" style="enable-background:new 0 0 455.731 455.731;" xml:space="preserve">
@@ -103,7 +129,8 @@
             c0,0,10.439,43.968,63.271,48.077c0,0-41.777,37.74-101.081,28.885L60.377,337.822z" />
             </g>
             </svg>
-          </a>
+          </a> <!-- Twitter end-->
+
           <a href="https://www.instagram.com/megchennn/" target="_blank">
             <svg class="social" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <style type="text/css">                        .st0{fill:url(#SVGID_1_);}
                  .st1{fill:#FFFFFF;}
@@ -126,7 +153,9 @@
                     </g>
                 </g>
               </svg>
-          <a href="https://www.linkedin.com/in/megan-chen-64612596/" target="_blank">
+          </a> <!--Instagran end-->
+
+          <a href="https://www.linkedin.com/in/megan-chen-64612596/" target="_blank" class="social">
             <svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502.15 502.15">
                 <defs>
                     <style>.cls-1{fill:#0074b1;}.cls-2{fill:#fff;}
@@ -141,8 +170,10 @@
                     </g>
                 </g>
               </svg>
-          </a>
+          </a> <!-- LinkedIn end-->
+
         </div><!-- Social Media links end-->
+
         <p>
           Copyright MEGAN CHEN 2021
         </p>
