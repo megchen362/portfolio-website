@@ -194,7 +194,8 @@ a:active {
 footer {
   text-align: center;
 }
-.contact > h2 {
+
+.reach_me > h2 {
   margin-bottom: 0;
   padding-bottom: 10px;
 }
@@ -229,7 +230,7 @@ footer {
   text-align: center;
   margin-left: 7em;
   margin-right: 7em;
-  margin-bottom: 12em;
+  margin-bottom: 13em;
   margin-top: 5em;
 }
 
@@ -269,7 +270,7 @@ footer {
     right: 90px;
 }
 
-.welcome_ios {
+.welcome_rfrm_ios {
     width: 60%;
     position: relative;
     right: 100px;
@@ -353,4 +354,49 @@ footer {
       position: relative;
       right: 40px;
       top: 50px;
+  }
+
+  /* Dimes CSS*/
+  .welcome_screens.dimes{
+    padding: 0;
+    margin: 20px;
+    margin-bottom:0;
+  }
+
+  .welcome_dimes {
+    width: 100%;
+  }
+
+  .content {
+    margin-top: 8em;
+    margin-bottom: 4em;
+    margin-left: 11em;
+    margin-right: 12em;
+  }
+
+  .content > h2 {
+    padding: 5px;
+    margin: 1em;
+  }
+
+  .content > p {
+    margin-bottom: 5em;
+  }
+
+  .ideation {
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 10em;
+
+  }
+
+  .grid.dimes_ideas {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .dimes_img {
+    margin: 3em 0;
+    text-align: center;
   }
