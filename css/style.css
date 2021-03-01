@@ -54,12 +54,16 @@ a:active {
   color: #014676;
   text-transform: uppercase;
   border: 2px solid #014676;
+  border-radius: 3px;
   padding:10px 20px;
+  transition-duration: 0.2s;
+  transition-property: border-radius;
 }
 
 .button:hover {
   background-color: #014676;
   color: #f4eae1;
+  border-radius: 30px;
 }
 
 /* ======= Headings ======= */
