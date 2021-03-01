@@ -37,7 +37,7 @@ a {
 
 a:hover,
 a:focus {
-  color: ##bd7115;
+  color: #bd7115;
 }
 
 a:visited {
@@ -65,6 +65,8 @@ a:active {
   color: #f4eae1;
   border-radius: 30px;
 }
+
+
 
 /* ======= Headings ======= */
 
@@ -144,17 +146,42 @@ footer {
   padding-bottom: 10px;
 }
 .email {
-  padding: 1em;
+  padding: 1em 3em;
   margin: 30px;
   margin-bottom: 50px;
 }
 
 .social {
-  width: 17%;
+  width: 14%;
   height: auto;
-  padding: 10px;
+  padding: 16px;
 }
 
+.cls-0 {
+  fill: #fff;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4 {
+  fill: #303030;
+  transition-duration: 0.4s;
+  transition-property: fill;
+}
+
+.cls-1:hover {
+  fill:#4476bb;
+}
+
+.cls-2:hover {
+  fill:url(#radial-gradient);
+}
+
+.cls-3:hover{
+  fill:#0074b1;
+}
+
+.cls-4:hover {
+  fill:#e94c89;
+}
 /* ======= Work ======= */
 
 
@@ -189,6 +216,7 @@ footer {
 .preview {
   margin-bottom: 5em;
 }
+
 
 /* ======= About Me ======= */
 
