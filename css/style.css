@@ -99,6 +99,7 @@ h4 {
 header {
   background-color: #f4eae1;
   padding: 10px 0;
+  margin-bottom: 2em;
   width: 100%;
   display: block;
   text-align: center;
@@ -109,6 +110,7 @@ nav > ul {
   display: inline-block;
   padding: 0;
   text-align: center;
+  margin: 0;
 }
 
 nav > ul > li {
@@ -117,7 +119,7 @@ nav > ul > li {
 
 nav > ul > li > a {
   padding: 0 24px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 14px;
   color: #014676;
 }
@@ -128,9 +130,7 @@ nav > ul > li > a:hover {
 }
 
 .logo {
-  position: relative;
-  max-width: 125px;
-  left: 0;
+  max-width: 225px;
   padding: 5px 5px;
   margin: 1em 1em;
 }
@@ -152,9 +152,9 @@ footer {
 }
 
 .social {
-  width: 14%;
+  width: 24%;
   height: auto;
-  padding: 16px;
+  padding: 12px;
 }
 
 .cls-0 {
@@ -182,13 +182,13 @@ footer {
 .cls-4:hover {
   fill:#e94c89;
 }
-/* ======= Work ======= */
 
+/* ======= Work ======= */
 
 #title {
   background-color: #f4eae1;
-  margin-top: 8em;
   margin-bottom: 8em;
+  margin-top: 3em;
   width: auto;
   display: block;
 }
@@ -196,6 +196,78 @@ footer {
 #title > p {
   padding-right: 5px;
   padding-left: 5px;
+}
+
+
+.hero {
+  z-index: 10;
+  position: relative;
+  top: 35px;
+  text-align: left;
+  margin-left: 1.5em;
+  margin-right: 10px;
+}
+
+
+.hello {
+  position: absolute;
+  opacity: 0.55;
+  z-index: 1;
+  width: 90%;
+  height: auto;
+}
+
+@keyframes letter-move {
+  0% {transform: translate(0px, 0px);}
+  50% {transform: translate(0px, 20px);}
+  100% {transform: translate(0px, 0px);}
+}
+
+.h {
+  animation-name: letter-move;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.e {
+  animation-name: letter-move;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0.1s;
+}
+
+.l1 {
+  animation-name: letter-move;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+}
+
+.l2 {
+  animation-name: letter-move;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0.3s;
+}
+
+.o {
+  animation-name: letter-move;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+}
+
+.comma {
+  animation-name: letter-move;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
 }
 
 #work {
@@ -314,7 +386,7 @@ Medium devices (640px and larger)
  nav > ul {
    width: auto;
    float: right;
-   margin-top: 2em;
+   margin-top: 20px;
  }
 
  .container {
@@ -325,6 +397,19 @@ Medium devices (640px and larger)
    margin-left: 1.5em;
    margin-right: 1.5em;
  }
+
+ .hello {
+   float:left;
+   width: 60%;
+ }
+
+.hero {
+   text-align: left;
+   top: 65px;
+   margin-left: 7em;
+ }
+
+
 
  [class*="_content"] {
    margin-left: 1.5em;
@@ -373,6 +458,14 @@ Large devices (1024px or larger)
    padding: 15px;
  }
 
+ body {
+   font-size: 18px;
+ }
+
+ nav > ul > li > a {
+   font-size: 16px;
+ }
+
  .logo {
    margin: 0.5em;
  }
@@ -381,15 +474,19 @@ Large devices (1024px or larger)
    width: 8%;
  }
 
- #title.container {
-   padding-left: 50px;
-   padding-right: 50px;
-   margin-left: 5em;
-   margin-right: 5em;
+ .hero {
+   top: 115px;
+   margin-left: 17em;
+   margin-right: 4em;
  }
 
- #title.container > p {
-   padding-right: 50px;
+ .hello {
+   float:left;
+   position: absolute;
+   top: 160px;
+   left: 64px;
+   opacity: 0.55;
+   z-index: 1;
  }
 
  .container, header {
