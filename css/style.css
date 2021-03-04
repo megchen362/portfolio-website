@@ -125,8 +125,30 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-  color: #bd7115;
-  text-decoration: none;
+  color: #b27ea5;
+}
+
+.hvr-outline-out {
+  display: inline-block;
+  position: relative;
+}
+.hvr-outline-out:before {
+  content: '';
+  position: absolute;
+  border: #f4eae1 solid 2px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.3s;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-out:hover:before {
+  top: -4px;
+  right: -2px;
+  bottom: -4px;
+  left: -2px;
+  border: #b27ea5 solid 2px;
 }
 
 .logo {
@@ -202,7 +224,7 @@ footer {
 .hero {
   z-index: 10;
   position: relative;
-  top: 35px;
+  top: 2em;
   text-align: left;
   margin-left: 1.5em;
   margin-right: 10px;
@@ -405,11 +427,9 @@ Medium devices (640px and larger)
 
 .hero {
    text-align: left;
-   top: 65px;
+   top: 4em;
    margin-left: 7em;
  }
-
-
 
  [class*="_content"] {
    margin-left: 1.5em;
@@ -475,7 +495,7 @@ Large devices (1024px or larger)
  }
 
  .hero {
-   top: 115px;
+   top: 6.5em;
    margin-left: 17em;
    margin-right: 4em;
  }
@@ -544,5 +564,39 @@ Large devices (1024px or larger)
  .dimes_img {
    width: 100%;
  }
+
+}
+
+
+/* ==============================
+XL devices (1440px and larger)
+================================= */
+
+@media only screen and (min-width: 1440px) {
+
+  body {
+    font-size: 20px;
+  }
+
+  nav > ul > li > a {
+    font-size: 20px;
+  }
+
+  .hello {
+    left: 10em;
+    top: 12em;
+  }
+
+  .hero {
+    top: 13em;
+    margin-left: 27em;
+    margin-right: 0;
+  }
+
+  #work.container {
+    margin-top: 20em;
+  }
+
+
 
 }
