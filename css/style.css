@@ -56,14 +56,14 @@ a:active {
   border: 2px solid #014676;
   border-radius: 3px;
   padding:10px 20px;
-  transition-duration: 0.2s;
+  transition-duration: 0.7s;
   transition-property: border-radius;
 }
 
 .button:hover {
   background-color: #014676;
   color: #f4eae1;
-  border-radius: 30px;
+  border-radius: 100px;
 }
 
 
@@ -349,8 +349,12 @@ footer {
   text-align: center;
 }
 
-.resume {
-  padding: 15px;
+.view_my_resume {
+    text-align: center;
+}
+
+.resume.button {
+  padding: 1em 3em;
   text-align: center;
   margin: 35px 10px;
 }
