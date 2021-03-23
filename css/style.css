@@ -9,6 +9,9 @@ Secondary (Dark Blue): #014676
 */
 
 /* ======= Layout styling ======== */
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -137,7 +140,6 @@ nav > ul {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
 }
 
 nav > ul > li > a {
@@ -425,6 +427,14 @@ footer {
     margin-bottom: 3em;
 }
 
+.dimes_grid {
+  display: block;
+}
+
+ul.scroll_nav {
+  display: none;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -513,6 +523,39 @@ Medium devices (640px and larger)
    padding: 0 70px;
  }
 
+ div.dimes_grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+
+  ul.scroll_nav {
+    display: block;
+    grid-column-start: 1;
+    text-align: center;
+    position: sticky;
+    top: 7em;
+    border: 1px solid #303030;
+    padding: 20px 0;
+    float:none;
+  }
+
+  ul.scroll_nav > li {
+    padding: 10px;
+  }
+
+  ul.scroll_nav > li > a {
+    width: 100%;
+    line-height: 2em;
+    text-transform: capitalize;
+    display: block;
+     }
+
+  ul.scroll_nav > li > a.current {
+    background-color: #cce9e7;
+    color: #303030;
+  }
+
+
 
 }
   /* ==============================
@@ -527,7 +570,7 @@ Large devices (1024px or larger)
  }
 
  body {
-   font-size: 18px;
+   font-size: 16px;
  }
 
  nav > ul > li > a {
@@ -559,7 +602,6 @@ Large devices (1024px or larger)
  }
 
  .container, header {
-   max-width: 1200px;
    margin-left: auto;
    margin-right:auto;
   }
@@ -590,7 +632,7 @@ Large devices (1024px or larger)
    margin-bottom: 1em;
  }
 
- [class*="_content"] {
+ .rfrm_content {
    margin-left: 10em;
    margin-right: 10em;
    margin-bottom: 4em;
@@ -610,9 +652,61 @@ Large devices (1024px or larger)
    width: 80%;
  }
 
+ .dimes_container {
+   margin-left: 2em;
+ }
+
  .dimes_img {
    width: 100%;
  }
+
+ section {
+   padding: 2em 0;
+
+ }
+
+ .dimes_content {
+   margin-bottom: 2em;
+   margin-left: 5em;
+   margin-right: 5em;
+ }
+
+ .dimes_img_container {
+   margin-top: 5em;
+ }
+
+  div.dimes_grid {
+     display: grid;
+     grid-template-columns: 1fr 5fr;
+   }
+
+   ul.scroll_nav {
+     grid-column-start: 1;
+     text-align: center;
+     position: sticky;
+     top: 7em;
+     border: 1px solid #303030;
+     padding: 20px 0;
+     float:none;
+   }
+
+   ul.scroll_nav > li {
+     padding: 10px;
+   }
+
+   ul.scroll_nav > li > a {
+     width: 100%;
+     line-height: 2em;
+     text-transform: capitalize;
+     display:block;
+      }
+
+   ul.scroll_nav > li > a.current {
+     background-color: #cce9e7;
+     color: #303030;
+   }
+
+
 }
 
 /* ==============================
