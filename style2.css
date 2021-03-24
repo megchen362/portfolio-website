@@ -1,0 +1,12 @@
+/* ======= Layout styling ======== */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+}
