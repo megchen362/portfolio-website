@@ -1,103 +1,87 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hey, it's Megan.</title>
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Syne#standard-styles">
+    <link href="https://fonts.google.com/specimen/Poppins?query=poppin">
     <script src="https://kit.fontawesome.com/98a4d492ec.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-      <header>
-        <div id="nav"><!-- nav bar-->
-          <div class="navtoggle" id="myNavToggle">
-            <a href="index.html">
-              <img class="logo" src="img/Portfolio Logo.svg" alt="Chen, Megan.">
-            </a>
-            <nav>
-              <ul>
-                <li><a class="hvr-outline-out" href="index.html">Work</a></li>
-                <li><a class="hvr-outline-out" href="about megan chen.html">About Me</a></li>
-                <li><a class="hvr-outline-out" href="#contact" onclick="menuToggle()">Contact</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-              </ul>
-            </nav>
-          </div>
+    <header>
+      <div id="nav"><!-- nav bar-->
+        <div class="navtoggle" id="myNavToggle">
+          <a href="index2.html">
+            <img class="header-logo" src="general logo.svg" alt="Chen, Megan.">
+          </a>
+          <nav>
+            <ul class="header-nav">
+              <li><a class="hvr-outline-out" href="work.html">Work</a></li>
+              <li><a class="hvr-outline-out" href="about.html">About</a></li>
+              <li><a class="hvr-outline-out" href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </nav>
         </div>
-      </header>
-
+      </div>
+    </header>
 
     <main>
 
-      <div id="title" class="container">
-        <picture>
-          <model-viewer src="img/m.obj" alt="">
-        </picture>
+      <div class="heading">
+        <img class="page-title" src="img/Work Heading.svg">
       </div>
 
-      <div id="work" class="container"><!-- work section -->
+      <div class="grid-l container"> <!-- page container --->
 
-          <h2>My Work</h2>
+        <div class="preview-work dimes"> <!--- dimes project --->
+          <picture class="preview-cover dimes">
+            <source srcset="img/Dimes/@1x/Dimes Cover.png" media="(max-width:767px)">
+            <a href="Dimes.html">
+              <img class="preview-work-img" src="img/Dimes/@2x/Dimes Cover@2x.png" alt="Dimes">
+            </a>
+          </picture>
+          <div class="preview-work-text">
+            <h3>Dimes</h3>
+            <p>Dimes is an application for users who are just beginning their finance tracking & management journey.
+              <br>
+              <br>
+              From user research and user flow diagrams to wireframes and interactive prototypes, I received valuable insight and feedback for an interface
+              that highlights important features and minimizes user frustrations.
+            </p>
+        <a class="preview-more nav-button" href="dimes2.html">View Project</a>
+        </div>
+      </div>  <!--- dimes project end -->
 
-          <div class="grid_m-l">
+      <div class="preview-work rfrm"> <!--- rfrm project ---->
+        <picture class="preview-cover rfrm">
+          <source srcset="img/rfrm/@1x/RFRM Cover.png" media="(max-width:767px)">
+          <a href="RFRM.html">
+            <img class="preview-work-img" src="img/RFRM/@2x/RFRM Cover@2x.png" alt="RFRM">
+          </a>
+        </picture>
+        <div class="preview-work-text">
+          <h3>RFRM</h3>
+          <p>With an open-ended design brief and a new-found interest in social and political issues, I designed RFRM as an educational
+              resource for users to access podcasts, news articles, and books on one platform.
+              <br>
+              <br>
+              The process for the native iOS and Android application involved a competitor analysis, user flow diagrams, multiple wireframe iterations, user testing, and peer critiques
+              to create a user-centered design.</p>
+              <a class="preview-more nav-button" href="rfrm2.html">View Project</a>
+        </div>
 
-            <div class="preview"><!-- Dimes Project -->
+      </div>
 
-              <div class="item1_l"><!-- Dimes img -->
-                <picture>
-                  <source srcset="img/Dimes/@1x/Dimes.png" media="(max-width:767px)">
-                  <a href="Dimes.html">
-                  <img class="cover_img" src="img/Dimes/@2x/Dimes@2x.png" alt="Dimes">
-                  </a>
-                </picture>
-              </div><!-- Dimes img end -->
+    </div> <!-- page container end -->
 
-              <div class="cover_text item2_l"><!-- Dimes info -->
-                  <p>Dimes is an application for users who are just beginning their finance tracking & management journey.
-                    <br>
-                    <br>
-                    From user research and user flow diagrams to wireframes and interactive prototypes, I received valuable insight and feedback for an interface
-                    that highlights important features and minimizes user frustrations.</p>
-
-              </div><!-- Dimes info end -->
-
-            </div><!-- Dimes Project end -->
-
-            <div class="preview"><!-- RFRM Project -->
-
-              <div class="item1_l"><!-- RFRM img -->
-                <picture>
-                  <source srcset="img/RFRM/@1x/RFRM.png" media="(max-width:767px)">
-                  <a href="RFRM.html">
-                  <img class="cover_img" src="img/RFRM/@2x/RFRM@2x.png" alt="RFRM">
-                  </a>
-                </picture>
-              </div><!-- RFRM img end -->
-
-              <div class="cover_text item2_l"><!-- RFRM info -->
-                <p>With an open-ended design brief and a new-found interest in social and political issues, I designed RFRM as an educational
-                    resource for users to access podcasts, news articles, and books on one platform.
-                    <br>
-                    <br>
-                    The process for the native iOS and Android application involved a competitor analysis, user flow diagrams, multiple wireframe iterations, user testing, and peer critiques
-                    to create a user-centered design.</p>
-             </div><!-- RFRM info end -->
-
-            </div><!-- RFRM Project end -->
-
-           </div><!-- CSS Animation end -->
-        </div><!-- class="grid" -->
-
-      </div><!-- work section end -->
     </main>
-
     <footer id="contact">
 
       <div class="container">
@@ -107,11 +91,19 @@
           <p>Want to get in touch? Contact me through email or social media.</p>
         </div>
 
-        <div><!-- email link -->
-          <a class="email button" href="mailto:meganchen362@gmail.com">Email Me</a>
-        </div><!-- email link end-->
+        <div><!-- social media links -->
+          <a href="mailto:meganchen362@gmail.com">
+            <svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502.15 502.15">
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="MAIL">
+                  <rect class="cls-5" width="502.15" height="502.15" rx="84.97"/>
+                  <path class="cls-0" d="M305.3,245.83l97.92,89.08V156.75L305.3,245.83Zm-111,0L96.23,156.74V334.92l98.09-89.09Zm97.37,12.4,97.89,89.1H109.89l98-89.1,26,23.6a23,23,0,0,0,15.88,6.07,22.36,22.36,0,0,0,15.73-6.1Z"/>
+                  <path class="cls-0" d="M109.89,144.34,247.65,269.6a3.49,3.49,0,0,0,4.32,0L389.74,144.34Z"/>
+                </g>
+              </g>
+            </svg>
+          </a>
 
-        <div><!-- Social Media links -->
           <a href="https://www.behance.net/meganchen1" target="_blank"><!-- Behance -->
             <svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502.15 502.15">
               <g id="Layer_2" data-name="Layer 2">
@@ -126,7 +118,7 @@
           </a> <!-- Twitter end-->
 
           <a href="https://www.instagram.com/megchennn/" target="_blank">
-            <svg id ="insta" class="social" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 502.15 502.15">
+            <svg id="insta" class="social" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 502.15 502.15">
               <defs>
                 <radialGradient id="radial-gradient" cx="37.08" cy="546.81" r="795.23" gradientUnits="userSpaceOnUse">
                   <stop offset="0" stop-color="#f7941d"/>
@@ -170,6 +162,6 @@
       </div>
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+    <script src="js/script2.js"></script>
+ </body>
 </html>

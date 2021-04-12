@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="371px" viewBox="0 0 400 371" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval</title>
+    <defs>
+        <radialGradient cx="54.0614424%" cy="54.7212393%" fx="54.0614424%" fy="54.7212393%" r="58.6084171%" gradientTransform="translate(0.540614,0.547212),scale(0.917219,1.000000),rotate(-164.502615),scale(1.000000,0.580206),translate(-0.540614,-0.547212)" id="radialGradient-1">
+            <stop stop-color="#DD17A0" offset="0%"></stop>
+            <stop stop-color="#EE0956" offset="28.8772263%"></stop>
+            <stop stop-color="#FF231D" offset="58.3916084%"></stop>
+            <stop stop-color="#FF9F30" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-19.9%" y="-21.7%" width="139.7%" height="143.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="20" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.494750977">
+        <g id="Desktop-Copy" transform="translate(-371.000000, -718.000000)" fill="url(#radialGradient-1)">
+            <g id="RFRM-Cover" transform="translate(419.000000, 753.000000)">
+                <path d="M202.829558,255.381083 C252.682274,330.22593 254.853758,269.299807 270.443238,208.365039 C284.913858,151.80357 302,166.199252 302,100.474126 C302,76.9421799 257.868699,13 215.82902,13 C173.789341,13 190.243069,75.2177207 173.228513,76.9421799 C134.994961,80.8172264 70.362851,-0.0634109421 12.2096209,72.6367453 C-32.079817,128.005107 59.3082931,136.413085 46.8883269,172.90958 C37.3669152,200.888574 19.5503025,218.064737 19.5503025,246.340172 C19.5503025,286.178555 73.603878,283.177336 95.9987609,272.716639 C162.672159,241.573352 183.430558,226.25699 202.829558,255.381083 Z" id="Oval" filter="url(#filter-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="294px" viewBox="0 0 342 294" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Dimes Background</title>
+    <defs>
+        <radialGradient cx="51.3233437%" cy="48.2399054%" fx="51.3233437%" fy="48.2399054%" r="65.6322753%" gradientTransform="translate(0.513233,0.482399),scale(0.822222,1.000000),rotate(179.821374),scale(1.000000,0.448267),translate(-0.513233,-0.482399)" id="radialGradient-1">
+            <stop stop-color="#DD8317" offset="0%"></stop>
+            <stop stop-color="#EE9A09" offset="27.5361601%"></stop>
+            <stop stop-color="#FFFD1D" offset="58.3916084%"></stop>
+            <stop stop-color="#FFF69A" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-16.7%" y="-20.3%" width="133.3%" height="140.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="15" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.516528902">
+        <g id="Desktop-Copy" transform="translate(-536.000000, -1130.000000)" fill="url(#radialGradient-1)">
+            <path d="M764.656861,1359.31631 C834.076914,1406.08254 850.782425,1302.03806 833.924082,1205.12796 C828.346821,1173.06711 773.218848,1190.12767 741.329583,1205.12796 C711.312788,1219.24747 715.977983,1170.06429 645.343068,1168.14604 C596.963447,1166.83219 596.963447,1173.40072 606.056021,1228.67553 C614.303354,1278.81201 549.485399,1276.57952 576.730403,1302.03806 C593.317789,1317.53781 642.074123,1399.72172 661.858869,1389.04683 C720.761445,1357.26585 734.72016,1339.14884 764.656861,1359.31631 Z" id="Dimes-Background" filter="url(#filter-2)"></path>
+        </g>
+    </g>
+</svg>

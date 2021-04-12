@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="505px" height="379px" viewBox="0 0 505 379" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Glass Logo</title>
+    <defs>
+        <path d="M907.200051,162.346343 C964.17787,188.744912 953.657013,246.677065 929.910117,278.833399 C906.504746,306.852567 894.80206,330.909781 894.80206,351.005041 C894.80206,381.147931 994.776433,418.657363 964.17787,483.462797 C929.796515,556.279899 812.796769,534.400456 812.796769,473.450878 C812.796769,412.501299 849.807879,342.300795 849.807879,278.833399 C821.459539,290.322178 786.29957,332.329984 786.29957,447.069484 C786.29957,477.483019 761.874758,498.388589 718.477614,498.388589 C675.080471,498.388589 648.357264,477.483019 648.357264,447.069484 C648.357264,332.329984 611.961447,291.78771 587.14735,278.833399 C587.14735,342.300795 624.15846,394.598583 624.15846,473.450878 C624.15846,536.921297 508.520888,555.912151 472.777359,483.462797 C442.328442,421.745212 542.153168,382.796556 542.153168,351.005041 C542.153168,319.213525 530.792008,310.989733 507.045112,278.833399 C483.298215,246.677065 472.777359,188.744912 529.755177,162.346343 C564.482114,146.256899 611.081203,162.346343 624.15846,200.487678 C638.212108,241.476771 703.275739,368.280099 718.480036,368.280099 C733.684332,368.280099 799.668337,236.627997 812.796769,200.487678 C832.496791,146.256899 872.473115,146.256899 907.200051,162.346343 Z" id="path-1"></path>
+        <filter x="-0.9%" y="-1.2%" width="101.8%" height="102.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.457304414 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.212480878 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-466.000000, -152.000000)" fill-rule="nonzero">
+            <g id="Glass-Logo">
+                <use fill-opacity="0.346304087" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke-opacity="0.245329743" stroke="#FFFFFF" stroke-width="2" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
