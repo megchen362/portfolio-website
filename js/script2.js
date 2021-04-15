@@ -30,4 +30,4 @@ window.addEventListener("scroll", event => {
       link.classList.remove("current");
     }
   });
-});
+}); 
