@@ -101,8 +101,9 @@ nav > ul > li > a:hover {
 
 .header-logo {
   max-width: 60px;
-  margin: 1em;
-  margin-bottom: 0;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /* ====== Footer styling =====*/
@@ -271,12 +272,12 @@ a.nav-button {
 
 .nav-button {
     display: block;
-    color: #FFF;
+    color: #fff;
     text-transform: uppercase;
     width: 12em;
     padding: 0.75em;
-    background: rgba(179, 210, 211, 1.0);
-    border: 2px solid rgba(255, 255, 255, 0.6);
+    background: rgba(126, 178, 180, 1.0);
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 2em;
     transform-style: preserve-3d;
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
@@ -291,15 +292,15 @@ a.nav-button {
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(58, 58, 58, 0.3);
+      background: rgba(26, 88, 96, 0.5);
       border-radius: inherit;
-      box-shadow: 0 0 0 2px rgba(255, 255, 255, 1.0), 0 0.625em 0 0 rgba(58, 58, 58, 0.1);
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7), 0 0.625em 0 0 rgba(58, 58, 58, 0.1);
       transform: translate3d(0, 0.75em, -1em);
       transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 
 .nav-button:hover {
-  background: rgba(153, 188, 192, 1.0);
+  background: rgba(81, 126, 131, 1.0);
   transform: translate(0, 0.25em);
 }
 
@@ -349,12 +350,12 @@ a.nav-button {
 .preview-more.nav-button {
   margin-top: 2em;
   margin-bottom: 5em;
-  background: rgba(137, 212, 222, 1.0);
+  background: rgba(40, 129, 141, 1.0);
   transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 
 .preview-more.nav-button:hover {
-  background: rgba(113, 174, 182, 1.0);
+  background: rgba(26, 88, 96, 1.0);
   transform: translate(0, 0.25em);
 }
 
