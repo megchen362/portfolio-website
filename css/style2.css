@@ -13,8 +13,8 @@ html {
 
 @font-face {
   font-family: 'Syne';
-  src: url('../css/Syne-VariableFont_wght.eot');
-  src: url('../css/Syne-VariableFont_wght.ttf') format('truetype'), url('../css/Syne-VariableFont_wght.svg') format('svg');
+  src: url('css/Syne-VariableFont_wght.eot');
+  src: url('css/Syne-VariableFont_wght.ttf') format('truetype'), url('css/Syne-VariableFont_wght.svg') format('svg');
 }
 
 body {
