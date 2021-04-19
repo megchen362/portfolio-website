@@ -13,7 +13,9 @@ html {
 
 @font-face {
   font-family: 'Syne';
-  src: url('/Syne-VariableFont_wght.ttf') format('truetype');
+  src: url('Syne-VariableFont_wght.eot');
+  src: url('Syne-VariableFont_wghtttf') format('truetype'),
+      url('Syne-VariableFont_wght.svg') format('svg');
 }
 
 body {
