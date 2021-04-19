@@ -13,7 +13,7 @@ html {
 
 @font-face {
   font-family: 'Syne';
-  src: url("Syne-VariableFont_wght.ttf") format('truetype');
+  src: url('/Syne-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
@@ -624,8 +624,6 @@ Medium devices (640px and larger)
     justify-content: space-around;
     flex-direction: row;
   }
-
-
 }
 
 /* ==============================
@@ -633,7 +631,6 @@ Large devices (1024px or larger)
 ================================= */
 
 @media only screen and (min-width: 1024px) {
-
   header {
     text-align: unset;
     padding: 15px;
@@ -653,6 +650,7 @@ Large devices (1024px or larger)
     max-width: 300px;
     margin-right: 0;
   }
+
   .social {
     width: 7%;
     padding: 16px;
@@ -707,12 +705,10 @@ Large devices (1024px or larger)
     animation-direction: alternate;
     animation-timing-function: linear;
   }
-
-  @keyframes cloud-3-move {
-    from {transform: translateX(0);}
-    to {transform: translateX(600px);}
-
-  }
+@keyframes cloud-3-move {
+  from {transform: translateX(0);}
+  to {transform: translateX(600px);}
+}
 
   .cloud-3 {
     right: 200px;
@@ -842,9 +838,7 @@ margin: 0px;
 .project-img.rfrm {
   width: 40%;
 }
-
 .project-img.dimes {
   width: 60%;
 }
-
 }
